@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self' https://*.supabase.co; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#0F5C4D">
+<meta name="description" content="Paydar: tus tarjetas, servicios, gastos y deudas en un solo lugar, con avisos antes de cada pago.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Paydar">
+<title>Paydar</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+<script src="config.js" charset="utf-8" defer></script>
+<script src="app.js" charset="utf-8" defer></script>
+</head>
+<body>
+<div id="app"><p class="boot">Cargando…</p></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="sheet" aria-modal="true"></dialog>
+</body>
+</html>

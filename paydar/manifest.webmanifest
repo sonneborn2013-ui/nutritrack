@@ -1,0 +1,17 @@
+{
+  "name": "Paydar — Never miss a payment",
+  "short_name": "Paydar",
+  "description": "Tus tarjetas, servicios, gastos y deudas en un solo lugar, con avisos antes de cada pago.",
+  "lang": "es-MX",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F6F4EF",
+  "theme_color": "#0F5C4D",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
